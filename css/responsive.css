@@ -1,0 +1,246 @@
+@media (max-width: 1300px) {.custom_nav-container .navbar-nav .nav-item .nav-link{
+  padding:13px;
+}
+
+}
+
+
+@media (max-width: 1120px) {
+  .team_section .team_container {
+    height: 100%;
+  }
+  .custom_nav-container .navbar-nav .nav-item .nav-link{
+    padding:10px;
+  }
+  .ser-div{
+    width: 450px;
+
+  }
+  .ser-div a div p{
+    font-size: 18px;
+  }  
+  .about_section .img-box img{
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 992px) {
+  .hero_area {
+    min-height: auto;
+    background-image: url(../images/bg7.jpg);
+    background-size: cover;
+  } 
+  .hero_area .hero_bg_box {
+    display: none;
+  }
+  .slider_section {
+    padding: 45px 0 75px 0;
+  }
+
+  .custom_nav-container .navbar-nav {
+    padding-top: 15px;
+    align-items: center;
+  }
+
+  .custom_nav-container .navbar-nav .nav-item .nav-link {
+    padding: 5px 25px;
+    margin: 5px 0;
+  }
+  .team_section .team_container {
+    grid-template-columns: repeat(2 , 1fr);
+  }
+
+  .ser-div{
+    width: 420px;
+  }
+  .ser-div a div p{
+    font-size: 18px;
+  } 
+  .ser-div{
+    margin-left:  -20%;
+  }
+  .slider_section .row{
+    flex-wrap: nowrap;
+  }
+  .slider_section.detail-box{
+    width: 120%;
+  }
+  .service_section .row .detail-box h5 {font-size: 18px;}
+  .translate{
+    right:80px;
+  }
+  .test::before {
+    content: '';
+    position: relative;
+    height: 2px;
+    background-color: var(--cyan);
+    border: 3px solid var(--cyan);
+    right: -10%;
+    border-bottom: 3px solid transparent; 
+  }
+  .test1::after {
+    content: '';
+    position: relative;
+    height: 2px;
+    background-color: var(--cyan);
+    border: 3px solid var(--cyan);
+    right: 10%;
+    border-bottom: 3px solid transparent; 
+  }
+  .service_section .box .img-box {
+    width: 100px;
+    min-width: 50px;
+    height: 50px;
+
+  }
+  .service_section .box .detail-box ul{
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about_section .img-box {
+    margin-bottom: 45px;
+  }
+  .slider_section .detail-box{
+    width: 150%;
+    margin-left: -100px;  
+  }
+  .about_section .img-box img{
+    width: 300px;
+    height: 300px;
+  }
+  
+  .team_container .ag-courses-item_title {font-size: 20px;}
+  .team_container .ag-courses-item_date-box ul{font-size: 18px; }
+}
+
+@media (max-width: 576px) {
+  .header_section .header_top .contact_nav a span {
+    display: none;
+  }
+  .team_section .heading_container img{
+    width: 50px;
+    height: 50px;
+  }
+  .slideshow-container{
+    max-width: 100%;
+  }
+  .client_section .box {
+    margin: 0;
+  }
+
+  .owl-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+  }
+
+  .client_section .owl-carousel .owl-nav .owl-prev,
+  .client_section .owl-carousel .owl-nav .owl-next {
+    position: unset;
+    margin: 0 2.5px;
+  }
+  .team_section .team_container {
+    grid-template-columns: repeat(1 , 1fr);
+  }
+  .about_section img{
+    width: 350px;
+    height: 350px;
+  }
+}
+
+@media (max-width: 480px) {
+  .slider_section .detail-box h1 {
+    font-size: 2rem;
+  }
+  .slideshow-container{
+    max-width: 100%;
+  }
+  
+  .track_section form {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .track_section form input {
+    width: 100%;
+  }
+
+  .track_section form button {
+    padding: 10px 60px;
+    margin-top: 10px;
+  }
+  .team_section .team_container{
+    display: block;
+  }
+ .about_section .detail-box{
+    /* margin-left: -150px;
+    width: 160%;
+    text-align: center; */
+  }
+  .slider_section .detail-box > p {
+    font-size: 18px;
+  }
+  .ser-div  a{
+    width: 60%; 
+    margin-top: -30px;
+  }  
+  .ser-div  a:hover{
+    margin-top: -30px;
+  }  
+  .ser-div a svg{ 
+    font-size: 12px;
+  }
+  .ser-div a:hover svg{ 
+    margin-top: 20px;
+  }
+  .ser-div  a{
+    height: 80%;
+  }
+  /* .translate{
+    right:10px;
+    top: 60px;
+  } */
+  @keyframes clear1 {
+    100% {
+     margin-bottom: 10px;
+    }
+  }
+  .ser-div a div p {font-size: 13px;}
+  .ser-div{
+    grid-template-columns: repeat(1,1fr);
+  }
+  
+  .team_container .ag-courses-item_title {font-size: 20px;}
+  .team_container .ag-courses-item_date-box ul{font-size: 15px; }
+
+}
+@media (max-width: 420px) {
+  .service_section .box {
+    flex-direction: column;
+  }
+  .mySlides1 img{height: 350px;}
+  
+  .service_section .box .img-box {
+    /* justify-content: flex-start; */
+    margin-bottom: 15px;
+  }
+
+  #navbar1{
+    background: var(--grey);
+  }
+  .team_section .team_container{
+    display: block;
+  }
+  .ser-div a div p {font-size: 13px;}
+}
+
+@media (max-width: 376px) {  }
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
